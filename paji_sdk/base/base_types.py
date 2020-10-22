@@ -1,4 +1,3 @@
-# mypy: ignore_errors
 import abc
 
 
