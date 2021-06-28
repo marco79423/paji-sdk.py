@@ -12,7 +12,7 @@ with open(os.path.join(base_dir, 'requirements.txt'), encoding='utf-8') as fp:
         if line and not line.startswith('#'):
             REQUIREMENTS.append(line)
 
-with open(os.path.join(base_dir, 'README.md'), encoding='utf-8') as fp:
+with open(os.path.join(base_dir, '..', 'README.md'), encoding='utf-8') as fp:
     long_description = fp.read()
 
 setuptools.setup(
