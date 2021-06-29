@@ -12,12 +12,12 @@ with open(os.path.join(base_dir, 'requirements.txt'), encoding='utf-8') as fp:
         if line and not line.startswith('#'):
             REQUIREMENTS.append(line)
 
-with open(os.path.join(base_dir, '..', 'README.md'), encoding='utf-8') as fp:
+with open(os.path.join(base_dir, 'README.md'), encoding='utf-8') as fp:
     long_description = fp.read()
 
 setuptools.setup(
     name="paji-sdk",
-    version='0.2.0',
+    version='0.2.1',
     author='兩大類',
     author_email='marco79423@gmail.com',
     url='https://github.com/marco79423/paji-sdk',
