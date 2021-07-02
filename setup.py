@@ -20,7 +20,7 @@ setuptools.setup(
     version='0.2.1',
     author='兩大類',
     author_email='marco79423@gmail.com',
-    url='https://github.com/marco79423/paji-sdk',
+    url='https://github.com/marco79423/paji-sdk.py',
     python_requires='>=3.6',
     description='Python 開發工具包',
     long_description=long_description,
